@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+body {
+    cursor: pointer;
+    background-color: #eaeaea;
+    font-family: ;
+    font-size: 15px;
+
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 1rem;
+    border: 1px solid;
+    box-shadow: 0 0 5px;
+    width: 35rem;
+    height: auto;
+}
+
+h1 {
+    font-weight: 400;
+    margin-left: 2rem;
+}
+
+#form {
+    outline: none;
+    border: none;
+
+}
+
+#input-field {
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+#input-field>input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    background: #eaeaea;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    width: 30vw;
+    margin-top: 2rem;
+
+}
+
+#input-field>label {
+    position: absolute;
+    top: 5rem;
+    left: 32.5rem;
+}
+
+#form>#btn {
+    background: green;
+    padding: .8rem;
+    border-radius: .5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+#btn2 {
+    background-color: black;
+    color: white;
+    padding: .8rem;
+    border-radius: .5rem;
+    margin: 1rem .5rem 1rem 2rem;
+
+}
+
+h2 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+#list {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    /*   border:1px solid black; */
+    margin-right: 2rem;
+
+}
+
+.list-item {
+    margin-left: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    width: 30vw;
+    list-style: none;
+    margin-bottom: .3rem;
+}
+
+.collection.active>h2 {
+    margin-bottom: 2rem;
+}
+
+i {
+    float: right;
+}
